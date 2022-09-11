@@ -3,8 +3,8 @@
 # Значения N, a и b вводит пользователь с клавиатуры.
 
 n = int(input('Введите число: '))
-spisok = list(range(-n, n+1))
-print(spisok)
+listnumbers = list(range(-n, n+1))
+print(listnumbers)
 a = int(input('Введите номер позиции первого числа: '))
 b = int(input('Введите номер позиции второго числа: '))
-print(f'Произведение {spisok[a-1]} и {spisok[b-1]} = {spisok[a-1] * spisok[b-1]} ')
+print(f'Произведение {listnumbers[a-1]} и {listnumbers[b-1]} = {listnumbers[a-1] * listnumbers[b-1]} ')
